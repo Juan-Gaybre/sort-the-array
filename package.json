@@ -1,0 +1,15 @@
+{
+  "name": "sort-the-array",
+  "version": "1.0.0",
+  "description": "sort-the-array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.globant.com/juan-gaybre/sort-the-array.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
