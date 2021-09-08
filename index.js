@@ -5,15 +5,15 @@ const books = [
   { name: "The Hunger Games", author: "Suzanne Collins" }
 ];
 
-const getLastName = (list) => {
+export const getLastName = (list) => {
   list.forEach(book => book.lastName = book.author.split(' ')[1]);
 }
 
-const sortByLastName = (a,b) => {
+export const sortByLastName = (a,b) => {
   return a.lastName.localeCompare(b.lastName);
 }
 
-const ordenedBooksByAuthor = (list) => {
+export const ordenedBooksByAuthor = (list) => {
   getLastName(list);
   const ordenedList = list.sort(sortByLastName);
   console.log(ordenedList)
